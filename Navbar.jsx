@@ -28,7 +28,7 @@ function Navvbar() {
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
               <NavLink className="nav-link" to='#'>Home <span className="sr-only">(current)</span></NavLink>
-            </li>
+             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="#">Link</NavLink>
             </li>
