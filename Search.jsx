@@ -11,11 +11,11 @@ const Search = () => {
     }
 
     return (
-        <>  <div>
+        <>  
             <input type="text"
                 onChange={ie}
                 value={search} />
-        </div>
+
             {search === "" ? null : <Sresult name={search} />}
 
         </>
